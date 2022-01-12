@@ -7,6 +7,8 @@ Key points of OnionNet-SFCT:
 4. The combination of Vina score and OnionNet-SFCT could be applied for reverse screening.
 5. OnionNet-SFCT captures certain short-range polar interactions between the protein and the ligand.
 
+<img src="./data/toc.png" alt="OnionNet-SFCT: a machine learning based scoring function correction term">
+
 # Webserver
 We deploy a webserver to run the model:
 http://jtmeng.sharelatex.top:9001/sfct/
