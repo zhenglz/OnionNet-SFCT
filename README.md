@@ -21,6 +21,9 @@ http://jtmeng.sharelatex.top:9001/sfct/
     conda install numpy pandas
     pip install mdtraj
     conda install -c conda-forge biopandas
+    
+    # models files could be found through website:
+    http://jtmeng.sharelatex.top:9001/sfct_models/
 
 
 # Usage
