@@ -293,8 +293,8 @@ if __name__ == "__main__":
     parser.add_argument('-o', type=str, default='sfct_scores.dat', help="Output scores filename.")
     parser.add_argument('--stype', type=str, default='vina', help="Input pose type. Could be: vina, gnina, idock or ledock.")
     parser.add_argument('-w', type=float, default=0.5, help="Rescore function weight. Default: 0.5.")
-    parser.add_argument('-m', type=str, default='sfct', help="Scoring method. Default sfct.")
-    parser.add_argument('--model', type=str, default='sfct.model', help="Scoring model. Default data/sfct.model")
+    parser.add_argument('--method', type=str, default='sfct', help="Scoring method. Default sfct.")
+    parser.add_argument('--model', type=str, default='sfct.model', help="Scoring model. Default model/sfct.model")
     parser.add_argument('--ncpus', type=int, default=1, help="Number of CPUs, default is 1.")
 
     args = parser.parse_args()
@@ -317,12 +317,12 @@ if __name__ == "__main__":
         cmd = "obabel {} -O {}".format(args.l, cnvrt_mol2)
         job = sp.Popen(cmd, shell=True)
         job.communicate()
-        rescoring(args.r, cnvrt_mol2, args.o, model_pkl=args.model, method=args.m,
+        rescoring(args.r, cnvrt_mol2, args.o, model_pkl=args.model, method=args.method,
                   reference=args.ref, pose_scores=pose_scores_original, weight=args.w,
                   ncpus=args.ncpus)
         os.remove(cnvrt_mol2)
     else:
-        rescoring(args.r, args.l, args.o, model_pkl=args.model, method=args.m,
+        rescoring(args.r, args.l, args.o, model_pkl=args.model, method=args.method,
                   reference=args.ref, pose_scores=pose_scores_original, weight=args.w,
                   ncpus=args.ncpus)
 
