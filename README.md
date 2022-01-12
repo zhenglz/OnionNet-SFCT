@@ -68,7 +68,9 @@ Arguments explained:
 * combined_score: the OnionNet-SFCT+Vina score (default weight w=0.5)
 * sfct: the OnionNet-SFCT predicted score, the predicted RMSD value
 * (optional) RMSD: if reference molecule (often the crystal molecule) is provided, the RMSD values of the docking poses with
-      respect to the reference molecule are calculated.
+      respect to the reference molecule are calculated. Please note that the model is designed for ligand screening, the RMSD predicted
+by this model is generate over-estimated, meaning that the predicted RMSD is often larger than the actual RMSD, but the trend of the RMSD
+of different poses should be reliable.
 
 # Citation
 Zheng L., et al. Improving protein-ligand docking and screening accuracies by incorporating a scoring function correction term.
