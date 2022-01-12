@@ -76,3 +76,6 @@ of different poses should be reliable.
 
 # Citation
 Zheng L., et al. Improving protein-ligand docking and screening accuracies by incorporating a scoring function correction term.
+
+# Contact
+Zheng Liangzhen, astrozheng_AT_gmail.com
