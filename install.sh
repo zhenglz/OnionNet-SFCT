@@ -11,3 +11,15 @@ conda install pandas -y
 pip install mdtraj
 conda install -c conda-forge biopandas -y
 
+# download models
+cd models
+for i in {1..4}
+do
+  wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_s${i}.model   
+done
+
+wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_std.model
+
+cd ../
+
+echo "installing sfct done ..." 
