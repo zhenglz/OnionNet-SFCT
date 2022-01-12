@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # create environment
-conda create -n sfct python=3.6
+conda create -n sfct python=3.6 -y
 
 # install packages
 conda activate sfct
