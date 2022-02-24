@@ -9,10 +9,6 @@ Key points of OnionNet-SFCT:
 
 <img src="./data/toc.png" alt="OnionNet-SFCT: a machine learning based scoring function correction term">
 
-# Webserver
-We deploy a webserver to run the model:
-http://jtmeng.sharelatex.top:9001/sfct/
-
 
 # Install
 
@@ -22,8 +18,7 @@ http://jtmeng.sharelatex.top:9001/sfct/
     pip install mdtraj
     conda install -c conda-forge biopandas
     
-    # models files could be found through website:
-    http://jtmeng.sharelatex.top:9001/sfct_models/
+    # models files would be provided upon request
 
 
 # Usage
