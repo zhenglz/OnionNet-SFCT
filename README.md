@@ -18,7 +18,7 @@ Key points of OnionNet-SFCT:
     pip install mdtraj
     conda install -c conda-forge biopandas
     
-    # models files would be provided upon request
+    # model files would be provided upon request
 
 
 # Usage
