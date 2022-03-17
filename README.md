@@ -74,7 +74,7 @@ by this model is generate over-estimated, meaning that the predicted RMSD is oft
 of different poses should be reliable.
 
 # Citation
-Zheng L., et al. Improving protein-ligand docking and screening accuracies by incorporating a scoring function correction term.
+Liangzhen Zheng, Jintao Meng, Kai Jiang, Haidong Lan, Zechen Wang, Mingzhi Lin, Weifeng Li, Hongwei Guo, Yanjie Wei, Yuguang Mu, Improving protein–ligand docking and screening accuracies by incorporating a scoring function correction term, Briefings in Bioinformatics, 2022;, bbac051, https://doi.org/10.1093/bib/bbac051
 
 # Contact
 Zheng Liangzhen, astrozheng_AT_gmail.com
