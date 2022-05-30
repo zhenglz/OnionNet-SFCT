@@ -9,24 +9,13 @@ Key points of OnionNet-SFCT:
 
 <img src="./data/toc.png" alt="OnionNet-SFCT: a machine learning based scoring function correction term">
 
+# Notes
+OnionNet-SFCT is only a scoring term, should be used in combination with Vina/Qvina/iDock, and the docking accurcies may vary, and should be compared to the original scoring term (Vina score, or Qvina score). 
+If the docking engine (Vina/Qvina/iDock) fails to generate the right poses, it is not possible for OnionNet to select the near-native pose. 
 
-# Install
 
-    conda install -c openbabel openbabel
-    pip install -U scikit-learn==0.23.2
-    conda install numpy pandas
-    pip install mdtraj
-    conda install -c conda-forge biopandas
-    
-    # models files could be found through website:
-    http://jtmeng.sharelatex.top:9001/sfct_models/
-    
-    # models could also be accessed through google drive
-    https://drive.google.com/drive/folders/1cSMvnwrAny0MkOn0AYGiDx0BbL5NSaV5?usp=sharing
-
-    Or using Baidu Netdisk:
-    Web Link: https://pan.baidu.com/s/1bLBRYIGli9Y81iUvD5jf8g
-    Access Code: 9in7
+# Webserver
+There will be a webserver available soon on the Zcloud platform for testing.
     
 # Docker image
 Now there is a docker image available for those wishing an easier solution:
