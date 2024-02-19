@@ -272,6 +272,8 @@ class LigandParser_Direct(LigandParser):
                         atom_block = True
                     elif "@<TRIPOS>BOND" in l:
                         atom_block = False
+                    elif "@<TRIPOS>UNITY_ATOM_ATTR" in l:
+                        atom_block = False
                     else:
                         if atom_block and len(l.split()) and l.split()[5].split(".")[0] != "H":
                             data_lines.append(l.split())
