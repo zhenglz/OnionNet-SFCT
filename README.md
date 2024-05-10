@@ -13,7 +13,6 @@ Key points of OnionNet-SFCT:
 OnionNet-SFCT is only a scoring term, should be used in combination with Vina/Qvina/iDock, and the docking accurcies may vary, and should be compared to the original scoring term (Vina score, or Qvina score). 
 If the docking engine (Vina/Qvina/iDock) fails to generate the right poses, it is not possible for OnionNet to select the near-native pose. 
 
-
 # Webserver
 There will be a webserver available soon on the Zcloud platform for testing.
     
@@ -77,6 +76,9 @@ of different poses should be reliable.
 
 # Citation
 Liangzhen Zheng, Jintao Meng, Kai Jiang, Haidong Lan, Zechen Wang, Mingzhi Lin, Weifeng Li, Hongwei Guo, Yanjie Wei, Yuguang Mu, Improving protein–ligand docking and screening accuracies by incorporating a scoring function correction term, Briefings in Bioinformatics, 2022;, bbac051, https://doi.org/10.1093/bib/bbac051
+
+# Model File
+The standard model file could found here: https://drive.google.com/file/d/1iiJvW4GBfg4D7LCuTRLKv9qnRYu5L2o5/view?usp=drive_link .
 
 # Contact
 Zheng Liangzhen, astrozheng_AT_gmail.com
