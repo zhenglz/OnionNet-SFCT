@@ -11,15 +11,15 @@ conda install pandas -y
 pip install mdtraj
 conda install -c conda-forge biopandas -y
 
-# download models
+# downloading models through web-link is not working. please use google drive link to download files.
 cd models
-for i in {1..4}
-do
-  wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_s${i}.model   
-done
+#for i in {1..4}
+#do
+#  wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_s${i}.model   
+#done
 
-wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_std.model
+#wget http://jtmeng.sharelatex.top:9001/sfct_models/onionnet-sfct_std.model
 
-cd ../
+#cd ../
 
 echo "installing sfct done ..." 
